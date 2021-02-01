@@ -12,7 +12,7 @@ let particlesArray;
 let mouse = {
     x: null, 
     y: null,
-    radius: (canvas.height/80) * (canvas.width/80)
+    radius: (canvas.height/100) * (canvas.width/100)
 }
 
 //updating mouse positon x and y
@@ -142,7 +142,7 @@ window.addEventListener('resize',
     function(){
         canvas.width = innerWidth;
         canvas.height = innerHeight;
-        mouse.radius = ((canvas.height/80) * (canvas. height/80));
+        mouse.radius = ((canvas.height/100) * (canvas. height/100));
         init();
     }
 );
